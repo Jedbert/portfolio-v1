@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    color: solid gray;
+    margin: 0;
+    padding-top: 10%;
+    background: #b0aaaa;
+    ;
+}   
+
+#title {
+    background-image: url("https://i.ibb.co/6PqY6pw/photo-2024-03-11-07-57-44.jpg");
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 50px;
+}
+.body {
+    background-color: #3b3b4f;
+    color: #bacccc;
+    padding: 50px;
+}
+
+
+label{
+    display: block;
+    margin: 0.3rem 0;
+}
+
+fieldset {
+    border: 20;
+    padding: 10rem 10;
+    border-bottom: 5px solid #3b3b4f;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  min-height: 2em;
+  padding-left: 25px;
+  border: 1px solid #0a0a23;
+  border-radius: 10px;
+  }
+
+.inline {
+    width:  unset;
+    margin-right: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    vertical-align: middle;
+}
+
+.learning {
+    display: inline-block;
+    text-align: left;
+}
+
+
+.learn {
+    display: flex;
+    align-items: center;
+}
+
+input, textarea {
+    background-color: white;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    border-radius: 15px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    padding-right: 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}

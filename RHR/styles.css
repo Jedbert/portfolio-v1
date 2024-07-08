@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(129, 173, 190);
+}
+
+h1 {
+    color: rgb(255, 000, 000);
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(000, 000, 000);
+    padding-left: 25px;
+}
+
+.login {
+    padding-right: 10px;
+}
+
+button {
+    padding: 5px;
+    margin-right: 7px;
+}
+
+.register {
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 3px 3px gray;
+    padding-bottom: 9px;
+    border-radius: 20px;
+    margin: 15px 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    border-width: 5px;
+    border-color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+#time {
+    align-self: center;
+}
+
+#one, #two, #three {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#img-size {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.talk {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#who {
+    margin: 5px;
+    font-style: italic;
+    padding: 5px;
+    text-align: justify;
+}
+
+#gaza {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-top {
+    color: #E02928;
+    line-height: 42px;
+    display: block;
+    text-align: center;
+}
+  
+
+html {
+    scroll-behavior: smooth;
+}
+
+.copyright {
+    line-height: 42px;
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+}

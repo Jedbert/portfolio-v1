@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Techie in a World of Advancing AI</title>
+</head>
+<body class="body">
+    <h1 id="title">Becoming a Techie in a World of Advancing AI</h1>
+    <p id="description">Start Your Tech Journey: Learn How AI is Shaping the Future</p>
+   <form id="survey-form" method="post" action="">
+    <fieldset>
+        <label for="name" id="name-label">Your Full Name: <input id="name" name="full-name" type="text" placeholder="Enter Your name" required /></label>
+        <label for="email" id="email-label">Your EmailAddress: <input id="email" name="email" type="email" placeholder="Enter Your Email" required /></label>
+        <label for="number" id="number-label">Age (optional): <input id="number" name="age" type="number" min="15" max="120" placeholder="Age"/></label>
+        <label for="dropdown">Do you have any programming experience?</label>
+        <select name="dropdown" id="dropdown">
+            <p id="dropdown">Do you have any programming experience?</p>
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+        <label for="experience">What is your current level of experience with technology?
+            <input id="experience" type="radio" name="experience" value="5" class="inline" checked /> Beginner
+        <input id="experience" type="radio" name="experience" value="6" class="inline" /> Intermediate
+        <input id="experience" type="radio" name="experience" value="7" class="inline" /> Advanced 
+    </label>
+        <label for="learning-style" class="learning">What is your preferred learning style?
+            <input type="checkbox" value="1" name="reading" id="learning-style" class="learn"> Reading
+            <input type="checkbox" value="2" name="watching" id="learning-style" class="learn"> Watching videos
+            <input type="checkbox" value="3" name="podcast" id="learning-style" class="learn"> Listening to podcasts
+            <input type="checkbox" value="4" name="projects" id="learning-style" class="learn"> Doing hands-on projects
+        </label>
+        <textarea name="comments" id="comments" cols="30" rows="5" placeholder= "Others (please specify)......"></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+      </form> 
+</body>
+</html>
